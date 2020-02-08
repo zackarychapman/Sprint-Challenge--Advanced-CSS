@@ -3,10 +3,19 @@
 @colornavsandlogo:#454A59;
 @paddingnavsandlogo:20px;
 
-//mobile mixins here
-@paramatericmixin(@font-param){
-    font-size:@font-param;
+
+// //mobile mixins here
+.button-font(@fontsize,@fontcolor){
+    font-size:@fontsize;
+    color:@fontcolor;
 }
-@parametricmixin2(@margin-mobile){
-    margin:@margin-mobile;
+
+.button(@weight){
+    font-weight: @weight;
 }
+
+.buttonhover(@color,@bgcolor){
+        color:@color;
+        background: @bgcolor;
+}
+    
