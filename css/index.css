@@ -175,6 +175,38 @@ p {
   padding: 20px;
   font-weight: bolder;
 }
+@media (max-width: 500px) {
+  .nav-logo nav a {
+    background: red;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+}
+.nav-logo h1 {
+  color: #454A59;
+  padding: 20px;
+  font-size: 40px;
+}
+@media (max-width: 500px) {
+  .nav-logo h1 {
+    background: black;
+  }
+}
+.nav-logo {
+  background: #F6F6F6;
+  margin-left: 10px;
+  text-align: center;
+  font-size: large;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 20px;
+  line-height: 20px;
+}
+.nav-logo nav a {
+  text-decoration: none;
+  color: #454A59;
+  padding: 20px;
+  font-weight: bolder;
+}
 .nav-logo h1 {
   color: #454A59;
   padding: 20px;
@@ -193,6 +225,11 @@ footer {
 .home .intro img {
   border-radius: 5px;
 }
+@media (max-width: 500px) {
+  .home .intro img {
+    width: 480px;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -203,6 +240,15 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .home .space-images {
+    background: red;
+  }
+  .home .space-images img:nth-child(1n+2) {
+    width: 500px;
+    height: 300px;
+  }
 }
 .home .space-images img {
   width: 28%;
@@ -235,6 +281,7 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+  background: green;
 }
 .home .walk .walk-text .btn {
   background: #22283A;
@@ -247,6 +294,14 @@ footer {
   text-align: center;
   padding-top: 8px;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 480px;
+    height: 70px;
+    margin-right: 10px;
+    padding-top: 25px;
+  }
+}
 .home .walk .walk-text .btn:hover {
   color: red;
   background: black;
@@ -254,6 +309,7 @@ footer {
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+  height: 100px;
 }
 .home .walk .walk-img img {
   width: 100%;

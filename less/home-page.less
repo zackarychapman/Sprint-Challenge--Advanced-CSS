@@ -4,6 +4,9 @@
 .intro{
   img{
     border-radius:5px;
+    @media (max-width:500px){
+      width:480px;
+    }
   }
   
 }
@@ -25,6 +28,15 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    @media (max-width:500px){
+      background: red;
+      img:nth-child(1n+2){
+        
+        width:500px;
+        height:300px;
+        
+      }
+    }
     
 
     img {
@@ -32,7 +44,7 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
-      border-radius:25px;//put my image stuff here property:@middle-images
+      border-radius:25px;
     }
   }
 
@@ -65,8 +77,10 @@
 
       p {
         margin-bottom: 26px;
+        background: green;
+        
       }
-//#22283A
+
       .btn {
         background: #22283A;
         .button-font(large,white);
@@ -76,7 +90,15 @@
         height:35px;
         text-align:center;
         padding-top:8px;
+        @media (max-width:500px){
+          width:480px;
+          height:70px;
+          margin-right:10px;
+          padding-top:25px;
+        //   .mobilebutton(800,)
       }
+    }
+      
       .btn:hover{
         .buttonhover(red,black);
       }
@@ -85,6 +107,8 @@
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      height:100px;
+      
       
       img {
         width: 100%;
