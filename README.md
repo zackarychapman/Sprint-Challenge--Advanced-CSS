@@ -38,11 +38,11 @@ A:adaptive changes when you hit certain set breakpoints, wheareas fully responsi
 
 2. Describe what it means to be mobile first vs desktop first.
 
-A:
+A:everything is customized for mobile. then media tags are added to make it functional for desktop usage. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-A: sets the font to size:
+A: It takes whatever value the rem unit is using and takes that value down by 62.5%. 
 
 4. How would you describe preprocessing to someone new to CSS?
 
