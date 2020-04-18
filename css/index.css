@@ -204,6 +204,20 @@ footer {
   justify-content: center;
   align-items: center;
 }
+body {
+  animation-name: practice;
+  animation-duration: 10s;
+  animation-delay: 5s;
+  background: #b1aaaa;
+}
+@keyframes practice {
+  from {
+    background: white;
+  }
+  to {
+    background: #9b9191;
+  }
+}
 @media (max-width: 500px) {
   .home .intro {
     width: 95%;
@@ -224,6 +238,35 @@ footer {
 }
 .home .intro h2 {
   padding: 15px;
+  animation-name: bounce;
+  animation-duration: 4s;
+}
+@keyframes bounce {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
 }
 .home .intro p {
   padding: 0 15px;
@@ -232,6 +275,35 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  animation-name: bounce;
+  animation-duration: 4s;
+}
+@keyframes bounce {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
 }
 @media (max-width: 500px) {
   .home .space-images img:nth-child(1n+2) {
@@ -299,6 +371,35 @@ footer {
   height: 35px;
   text-align: center;
   padding-top: 8px;
+  animation-name: bounce;
+  animation-duration: 4s;
+}
+@keyframes bounce {
+  0% {
+    background-color: red;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    padding-left: 200px;
+    padding-top: 0px;
+  }
+  50% {
+    background-color: blue;
+    padding-left: 100px;
+    padding-top: 200px;
+  }
+  75% {
+    background-color: green;
+    padding-left: 0px;
+    padding-top: 200px;
+  }
+  100% {
+    background-color: red;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
