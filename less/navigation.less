@@ -1,6 +1,7 @@
 // Navigation code here
 .nav-logo{
-    background: #F6F6F6;
+    background: rgb(34, 40, 58, 0.2);
+    opacity:0.5;
     margin-left:@nav-bg-margin;
     text-align:center;
     font-size:large;
@@ -11,6 +12,9 @@
     position:fixed;
     top:0;
     width:100%;
+    transition: .5s;
+    
+   
     
 
     nav a{
@@ -29,4 +33,7 @@
         padding:@paddingnavsandlogo;
         font-size:40px;
     }
+}
+.nav-logo:hover{
+    opacity:1;
 }

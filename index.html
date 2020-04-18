@@ -13,6 +13,23 @@ s<!doctype html>
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+  <!-- Added this to get the nav bar to stay solid color, then change opacity when scrolling - doesn't work currently -->
+  <title>Change opacity on scroll</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(window).scroll(function(){
+        if($(this).scrollTop() > 100){
+          $(".topbar").css({"opacity" : "0"})
+        }
+        else {
+          $(".topbar").css({"opacity" : "1"})
+        }
+      })
+    })
+    </script>
+
 </head>
 
 <body>
