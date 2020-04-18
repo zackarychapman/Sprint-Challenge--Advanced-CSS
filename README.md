@@ -46,11 +46,11 @@ A: It takes whatever value the rem unit is using and takes that value down by 62
 
 4. How would you describe preprocessing to someone new to CSS?
 
-A:Its a way to make everything far mor responsive, a way to type far less, and communicate/change things accross your document far better. Like sizes/fonts/colors/variables/anything can be changed symultaneously. 
+A:Its a way to make everything far more responsive, a way to type far less, and communicate/change things accross your document far better. Like sizes/fonts/colors/variables/anything can be changed simultaneously. 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-A: I the @variables they are very easy to control and understand, mostly because they are 1-2 layers deep usually. Mixins with .thisvariable are a bit trickier for me because of nesting, most of the time the work for me, but sometimes they don't and it can be a bit tricky to figure out why. 
+A: I like the @variables they are very easy to control and understand, mostly because they are 1-2 layers deep usually. Mixins with .thisvariable are a bit trickier for me because of nesting, most of the time they work for me, but sometimes they don't and it can be a bit tricky to figure out why. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

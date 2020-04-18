@@ -198,11 +198,7 @@ footer {
 }
 .home .intro img {
   border-radius: 5px;
-}
-@media (max-width: 500px) {
-  .home .intro img {
-    width: 480px;
-  }
+  width: 2 vw;
 }
 .home .intro h2 {
   padding: 15px;
@@ -290,8 +286,9 @@ footer {
   }
 }
 .home .walk .walk-text .btn:hover {
-  color: red;
-  background: black;
+  color: #22283A;
+  background: white;
+  border: #22283A 1px solid;
 }
 .home .walk .walk-img {
   width: 46%;
